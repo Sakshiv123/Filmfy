@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api/": "https://filmfy-0xe1.onrender.com",
-      "/uploads/": "https://filmfy-0xe1.onrender.com",
+      "/api/": "https://filmfy-backend.onrender.com",
+      "/uploads/": "https://filmfy-backend.onrender.com",
     },
   },
 });
