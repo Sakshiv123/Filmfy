@@ -32,7 +32,7 @@ app.use("/api/v1/genre", genreroute);
 app.use("/api/v1/upload", uploadRoutes);
 
 // Setting the PORT
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // Handle __dirname in ES modules
 // const __filename = fileURLToPath(import.meta.url);
